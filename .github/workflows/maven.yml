@@ -1,5 +1,5 @@
 name: My Test WorkFlow - Repo2
-'on':
+on:
   repository_dispatch:
     types: [trigger-workflow]
 jobs:
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step-1
-        run: echo "STEP-1 Executed"
+        run: echo "Vantan da .!"
